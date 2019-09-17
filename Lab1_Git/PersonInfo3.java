@@ -1,8 +1,8 @@
 public class PersonInfo3 {
 
-    public static String firstName = "Liz";
-    public static String lastName = "Grégoire";
-    public static int studentNo = 173819;
+    public static String firstName = "Sebastien";
+    public static String lastName = "Ledoux";
+    public static int studentNo = 300095644;
     public static String description = "Likes long walks along the beach";
 
     public static void displayFr() {
@@ -11,18 +11,18 @@ public class PersonInfo3 {
         out += SIConstants.STUDENT_NUMBER_FR + studentNo + '.';
         out += SIConstants.DESCRIPTION_FR + description + '.';
         out += SIConstants.EOL;
-        
+
         System.out.println(out);
     }
 
-    
+
     public static void displayEn() {
         String out = SIConstants.GREETING_EN;
         out += " " + firstName + " " + lastName + '.';
         out += SIConstants.STUDENT_NUMBER_EN + studentNo + '.';
         out += SIConstants.DESCRIPTION_EN + description + '.';
         out += SIConstants.EOL;
-        
+
         System.out.println(out);
     }
 }
